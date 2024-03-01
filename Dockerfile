@@ -36,7 +36,7 @@ RUN		mkdir -p /var/www/html/cache/rss && \
 			chmod -Rv 777 /var/www/html/cache && \
 			chmod -Rv 777 /var/www/html/site_config
 
-VOLUME	/var/www/html/cache
+# VOLUME	/var/www/html/cache
 
 COPY	custom_config.php /var/www/html/
 
